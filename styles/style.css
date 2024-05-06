@@ -1,0 +1,32 @@
+body{
+    font-family: "Open Sans";
+    color: white;
+    margin:0%;
+    background-color: #171515;
+}
+
+.menu{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nomeAtividade {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo {
+    margin-left: 100px;
+    min-width: 500px;
+    display: flex;
+    justify-content:left;
+
+}
+
+#calcular {
+    color: white;
+    background-color: green;
+    font-size: 15px;
+}

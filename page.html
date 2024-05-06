@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&   display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="menu">
+        <h1 id="title">Atividades Marcello</h1>
+        <div class="nomeAtividade">
+            <p>Calculadora</p> 
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <div class="Calculadora">
+            <h1>Calculadora Grojeta</h1>
+
+            <h2>Valor conta: </h2>
+            <input type="number" id="valorConta">
+
+            <h2>Pessoas: </h2>
+            <input type="number" id="numeroPessoas">
+
+            <h2>Gorjeta? </h2>
+            <label for="sim">Sim</label>
+            <input type="checkbox" id="sim">
+            <label for="nao">Não</label>
+            <input type="checkbox" id="nao"> 
+
+    
+            
+            <h2>Porcentagem Gorjeta: </h2>
+            <input type="number" id="porcentagem">
+
+            <input type="submit" value="calcular" onclick="calculaTotal()" id="calcular">
+
+            <h2>Total por pessoa: </h2>
+            <input type="number" disabled id="total" data-valor="">
+        </div>
+        
+    </div>
+    
+</body>
+</html>
